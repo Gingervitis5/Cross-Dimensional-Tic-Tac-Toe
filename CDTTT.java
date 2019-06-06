@@ -27,30 +27,39 @@ public class CDTTT {
 				for (int col = 0; col < 3; col++) {
 					if (solve(row, col, board1, 0, 1)){
 						winning = board1[row][col];
+						break;
 					}
 					else if (solve(row, col, board1, 0, 2)) {
 						winning = board1[row][col];
+						break;
 					}
 					else if (solve(row, col, board1, 0, 3)) {
 						winning = board1[row][col];
+						break;
 					}
 					else if (solve(row, col, board1, 0, 4)) {
 						winning = board1[row][col];
+						break;
 					}
 					else if (solve(row, col, board1, 0, 0)) {
 						winning = board1[row][col];
+						break;
 					}
 					else if (solve(row, col, board1, 0, -1)){
 						winning = board1[row][col];
+						break;
 					}
 					else if (solve(row, col, board1, 0, -2)){
 						winning = board1[row][col];
+						break;
 					}
 					else if (solve(row, col, board1, 0, -3)){
 						winning = board1[row][col];
+						break;
 					}
 					else if (solve(row, col, board1, 0, -4)){
 						winning = board1[row][col];
+						break;
 					}
 				}
 			}
